@@ -2,6 +2,12 @@
 
   // Imports
 
+    // Variables
+    @import 'variables';
+
+    // Mixins
+    @import 'mixins';
+
     // Normalize (credit: https://github.com/kristerkari/normalize.scss)
     @import 'normalize';
 
@@ -12,11 +18,9 @@
     @import 'links';
     @import 'skins';
 
-    // Variables
-    @import 'variables';
+    // Grid (credit: https://github.com/nhunzaker/skeleton-scss)
+    @import 'grid';
 
-    // Mixins
-    @import 'mixins';
 
     // Styles
     @import 'styles';
