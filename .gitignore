@@ -1,7 +1,7 @@
 # Created by http://www.gitignore.io
 
 ### CodeKit ###
-*/config.codekit
+config.codekit
 
 
 ### Sass ###
