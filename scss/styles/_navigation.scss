@@ -1,0 +1,33 @@
+// =============================================================================
+// _navigation.scss
+// project x
+// oliver pope
+// =============================================================================
+
+nav {
+  background: $green;
+  margin-bottom: 1em;
+  border-radius: 2px;
+  ul { padding: 0; margin: 0 1em; }
+  li {
+    list-style: none;
+    display: inline-block;
+    padding: .5em 1em;
+    transition: 1s all;
+    a {
+      font-size: .95em;
+      text: {
+        decoration: none;
+        transform: uppercase;
+      }
+      &:link    { color: $white; }
+      &:visited { color: $white; }
+      &:hover   { color: $white; }
+      &:active  { color: $white; }
+    }
+    &:hover { background: $lime; }
+    @media only screen and (max-width: 767px) {
+      display: block;
+    }
+  }
+}
